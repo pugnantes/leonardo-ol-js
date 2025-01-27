@@ -1,11 +1,19 @@
-// {
-//   "compilerOptions": {
-//       "module": "AMD",
-//       "lib": ["es5", "es6", "dom"],
-//       "rootDir": "./src/",
-//       "outFile": "./build/build.js"
-//   }
-// }
+/* Config tsc build
+{
+  "compilerOptions": {
+    "allowJs": true,            
+    "checkJs": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "target": "ES6",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "strict": true
+  }
+}
+  
+ */
+//Config npm run dev
 {
   "compilerOptions": {
     "module": "ESNext",
