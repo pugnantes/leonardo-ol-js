@@ -1,0 +1,15 @@
+// {
+//   "compilerOptions": {
+//       "module": "AMD",
+//       "lib": ["es5", "es6", "dom"],
+//       "rootDir": "./src/",
+//       "outFile": "./build/build.js"
+//   }
+// }
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "target": "esnext"
+  }
+}
